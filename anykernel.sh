@@ -1,4 +1,4 @@
-# AnyKernel2 Ramdisk Mod Script
+# AnyKernel3 Ramdisk Mod Script
 # osm0sis @ xda-developers
 
 ## AnyKernel setup
@@ -9,6 +9,7 @@ do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=vince
+supported.versions=10
 '; } # end properties
 
 # shell variables
@@ -19,10 +20,9 @@ ramdisk_compression=auto;
 
 ## AnyKernel methods (DO NOT CHANGE)
 # import patching functions/variables - see for reference
-. $TMPDIR/tools/ak2-core.sh;
+. tools/ak3-core.sh;
 
 ## AnyKernel install
-ui_print "  • Unpacking image"
 dump_boot;
 
 # begin ramdisk changes
@@ -30,6 +30,5 @@ dump_boot;
 # end ramdisk changes
 
 write_boot;
-
 ## end install
 
