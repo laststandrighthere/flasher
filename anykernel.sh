@@ -8,7 +8,7 @@ do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=vince
+device.name1=whyred
 supported.versions=10
 '; } # end properties
 
