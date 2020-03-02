@@ -9,7 +9,6 @@ do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=vince
-supported.versions=10
 '; } # end properties
 
 # shell variables
